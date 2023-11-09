@@ -1,4 +1,4 @@
-package Maintasks;
+package Lottery;
 
 import java.util.*;
 
