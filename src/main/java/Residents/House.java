@@ -12,6 +12,10 @@ public class House {
         residents.put("Алешкина Екатерина Алексеевна", 22);
         residents.put("Алешкин Егор Алексеевич", 9);
         residents.put("Алешкина Анастасия Алексеевна", 16);
+        residents.put("Иван Иван Иванович", 70);
+        residents.put("Сидоров Александр Сергеевич", 49);
+        residents.put("Якимов Алексей Александрович", 33);
+        residents.put("Якимова Наталья Анатольевна", 53);
         return residents;
     }
 
