@@ -12,9 +12,9 @@ public class Loterry {
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             int randoms = random.nextInt(100);
-            int temp = array[randoms];
+            int rep = array[randoms];
             array[randoms] = array[i];
-            array[i] = temp;
+            array[i] = rep;
         }
         return array;
     }
