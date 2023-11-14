@@ -74,7 +74,7 @@ public class Student {
     private static void listOfWinners(List<Student> point) {
         for (int i = 0; i < 3; i++) {
             System.out.println(i + 1 + " Место: " + point.get(i).getSurName() + " " + point.get(i).getName() + " "
-                    + point.get(i).getPatronymic() + " " + "Среднее кол-во баллов: " + studentScores(point.get(i).getScore()));
+                    + point.get(i).getPatronymic() + " " + ".Среднее кол-во баллов: " + studentScores(point.get(i).getScore()));
         }
     }
 }
