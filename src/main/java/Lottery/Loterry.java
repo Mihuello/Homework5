@@ -21,7 +21,6 @@ public class Loterry {
 
     static int[] printArray(int [] array) {
         for (int i = 0; i < 10; i++) {
-
             System.out.println(array[i] + " ");
         }
         return array;
@@ -29,7 +28,7 @@ public class Loterry {
 
 
     public static void main(String[] args) {
-        int[] array = printArray(arrayCreate());
+        printArray(arrayCreate());
     }
 }
 
